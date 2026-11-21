@@ -1,0 +1,11 @@
+{
+  "ticket": "HB-126",
+  "title": "Docs typo in --retry flag description",
+  "severity": "Low",
+  "area": "docs",
+  "reported": "2025-08-30",
+  "regression_test": true,
+  "target_series": "2.4",
+  "reporter": "mei.tanaka",
+  "notes": "Documentation only."
+}
