@@ -1,0 +1,11 @@
+{
+  "ticket": "HB-133",
+  "title": "Upload stalls above 2 GB",
+  "severity": "High",
+  "area": "cli",
+  "reported": "2025-09-15",
+  "regression_test": true,
+  "target_series": "2.4",
+  "reporter": "priya.raman",
+  "notes": "Chunk buffer is never flushed past the 2 GB boundary."
+}
