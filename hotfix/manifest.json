@@ -1,0 +1,11 @@
+{
+  "ticket": "HB-118",
+  "title": "CLI exits 0 when an upload fails",
+  "severity": "High",
+  "area": "cli",
+  "reported": "2025-09-08",
+  "regression_test": false,
+  "target_series": "2.4",
+  "reporter": "tomas.lindqvist",
+  "notes": "Exit code is swallowed by the upload wrapper; no test added yet."
+}
