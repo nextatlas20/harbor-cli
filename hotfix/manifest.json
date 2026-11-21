@@ -1,0 +1,11 @@
+{
+  "ticket": "HB-146",
+  "title": "Resumable upload corrupts chunk boundary",
+  "severity": "High",
+  "area": "upload",
+  "reported": "2025-09-19",
+  "regression_test": true,
+  "target_series": "2.4",
+  "reporter": "dana.oyelaran",
+  "notes": "Resume offsets are computed from the uncompressed size."
+}
