@@ -1,0 +1,11 @@
+{
+  "ticket": "HB-121",
+  "title": "Webhook retries never back off",
+  "severity": "Critical",
+  "area": "routing",
+  "reported": "2025-09-20",
+  "regression_test": true,
+  "target_series": "2.5",
+  "reporter": "dana.oyelaran",
+  "notes": "Written against the 2.5 retry scheduler, so it cannot ride the 2.4 train."
+}
