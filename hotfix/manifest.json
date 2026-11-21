@@ -1,0 +1,11 @@
+{
+  "ticket": "HB-140",
+  "title": "Billing export silently drops the last row",
+  "severity": "Critical",
+  "area": "billing",
+  "reported": "2025-09-11",
+  "regression_test": true,
+  "target_series": "2.4",
+  "reporter": "mei.tanaka",
+  "notes": "The CSV writer closes before flushing the final record."
+}
