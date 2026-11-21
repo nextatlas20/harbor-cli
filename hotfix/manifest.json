@@ -1,0 +1,11 @@
+{
+  "ticket": "HB-131",
+  "title": "Session cookie dropped behind reverse proxy",
+  "severity": "High",
+  "area": "auth",
+  "reported": "2025-09-02",
+  "regression_test": true,
+  "target_series": "2.4",
+  "reporter": "tomas.lindqvist",
+  "notes": "SameSite handling breaks when the proxy terminates TLS."
+}
